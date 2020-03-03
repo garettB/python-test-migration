@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="python-test-migration-garett-b",
-    version="0.0.1",
+    version="0.0.2",
     author="Garett Beukeboom",
     author_email="beukeboom@gmail.com",
     description="Mock data migrations to various cloud providers",
