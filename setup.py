@@ -13,7 +13,7 @@ setuptools.setup(
     install_requires=["dill"],
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com:garettB/python-test-migration",
+    url="https://github.com/garettB/python-test-migration",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
