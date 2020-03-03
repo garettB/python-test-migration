@@ -11,7 +11,7 @@ This package requires Python version 3.6 or higher to operate and `pip`, a Pytho
 Install using `pip`
 
 ```
-pip install <my_package>
+pip install --index-url https://test.pypi.org/simple/ --no-deps python-test-migration-garett-b
 ```
 
 ## Test Cases
@@ -19,7 +19,7 @@ pip install <my_package>
 Basic and migration-operation test cases have been created and can be run using the following `pip` command which will install the package if the tests pass or display an error if they fail.
 
 ```
-pip install <my_package> --install-option test
+pip install --index-url https://test.pypi.org/simple/ --no-deps python-test-migration-garett-b --install-option test
 ```
 ---
 
